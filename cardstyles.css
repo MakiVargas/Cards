@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 1355px;
+  height: 640px;
+  border: solid;
+  padding: 0%;
+  box-sizing: border-box;
+  margin: 2px;
+  background: linear-gradient(to right, #780206, #061161);
+}
+
+.proyect {
+  color: white;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  text-decoration: underline white;
+  text-decoration-thickness: 2px;
+  font-size: x-large;
+}
+
+.breakingbad {
+  width: 210px;
+  height: 190px;
+  margin-left: 75px;
+  margin-top: 10px;
+  border-radius: 50%;
+  box-shadow: -8px 20px 20px -4px black;
+  border: solid;
+}
+
+.heisemberg {
+  width: 350px;
+  height: 520px;
+  border-style: solid;
+  border-width: 3px;
+  margin-left: 20px;
+  margin-top: 0px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #7aac10, #141517);
+  backdrop-filter: blur(10px);
+  box-shadow: -8px 20px 40px -4px rgb(140, 247, 69);
+  float: left;
+}
+
+li {
+  text-align: left;
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  padding: 3px;
+  list-style-type: square;
+  margin: auto;
+}
+
+.dea {
+  color: white;
+  font-family: "Outfit", sans-serif;
+  font-size: 11px;
+  text-align: center;
+  background-color: #012404;
+}
+
+.spootify {
+  width: 350px;
+  height: 520px;
+  margin-left: 120px;
+  margin-right: 100px;
+  border: solid black;
+  margin-top: 0px;
+  border-radius: 15px;
+  background: linear-gradient(to top, #000000, #434343);
+  box-shadow: -8px 20px 40px -2px rgb(129, 128, 128);
+  display: inline-block;
+}
+
+.encabezado {
+  color: white;
+  font-size: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.summerOf69 {
+  width: 165px;
+  height: 165px;
+  margin-left: 95px;
+  margin-top: 15px;
+  position: relative;
+  border-radius: 15px;
+  border: solid;
+}
+.cancion {
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.autor {
+  text-align: left;
+  margin-left: 20px;
+  color: white;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+audio {
+  float: left;
+  width: 330px;
+  padding: 10px;
+}
+
+h5 {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 2px;
+}
+
+.lyrics {
+  margin: 0 auto;
+  width: 300px;
+  height: 100px;
+  overflow-y: scroll;
+}
+
+.lyrics::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.lyrics::-webkit-scrollbar:vertical {
+  width: 8px;
+}
+
+.lyrics::-webkit-scrollbar-button:increment,
+.lyrics::-webkit-scrollbar-button {
+  display: none;
+}
+
+.lyrics::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+.lyrics::-webkit-scrollbar-thumb {
+  background-color: #272626;
+  border-radius: 20px;
+  border: 2px solid #f1f2f3;
+}
+
+.lyrics::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+.letra {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.Encar {
+  width: 350px;
+  height: 520px;
+  float: right;
+  border: solid black;
+  background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+  margin-right: 20px;
+  margin-top: 0px;
+  border-radius: 15px;
+  box-shadow: -8px 20px 40px -4px rgb(252, 250, 250);
+  background-color: white;
+}
+
+.costa {
+  width: 350px;
+  height: 180px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.info {
+  text-align: justify;
+  padding: 8px;
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: large;
+}
+
+.pie {
+  column-count: 3;
+  margin-bottom: 0px;
+  background: linear-gradient(to right, #d31027, #ea384d);
+  text-align: center;
+  padding: 12px;
+  color: white;
+  font-size: 15px;
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.foto {
+  font-size: 10px;
+  color: #ea384d;
+  text-align: right;
+  margin: 3px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
